@@ -1,0 +1,6 @@
+[cross] pair geometry 9s; ordered pairs per bin min/max 1908/1571734
+[cross] rate_log_slope node 1/5: -0.3500  (9s)
+[cross] rate_log_slope node 2/5: -0.1750  (40s)
+[cross] rate_log_slope node 3/5: +0.0000  (73s)
+[cross] rate_log_slope node 4/5: +0.1750  (104s)
+[cross] rate_log_slope node 5/5: +0.3500  (137s)

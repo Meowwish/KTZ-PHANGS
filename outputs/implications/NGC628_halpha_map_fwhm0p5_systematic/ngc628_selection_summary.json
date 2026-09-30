@@ -1,0 +1,16 @@
+{
+  "galaxy": "NGC628",
+  "nominal_valid_pixels": 15201,
+  "dynamic_valid_pixels_p16_p50_p84": [
+    15198.0,
+    15203.0,
+    15208.0
+  ],
+  "paired_selection_bias_mahalanobis": 0.11302174160671372,
+  "paired_selection_max_abs_delta_xi": 0.0012003591450671376,
+  "threshold_grid_max_abs_delta_xi": 0.07144713358909349,
+  "annular_shuffle_noisy_null_mahalanobis": 0.07728346332697304,
+  "annular_shuffle_noisy_null_max_abs_median_xi": 0.003768694968733453,
+  "null_realisations": 40,
+  "interpretation": "diagnostic conditional on released PSF-matched line maps; not a native-cube selection correction"
+}

@@ -1,0 +1,29 @@
+{
+  "legacy_pilot_hash": "ff46d3b2bd7935f92619466be53d424dc21a60cffd31189fa67ddee4fee3b7a9",
+  "source_hash": "9809f46e41d61b5c5af75d5ad6f2ae172e1f063aac587fb4a2601323d22a20dd",
+  "observed_hash": "95167562c557f4c98624f5d0b6ccfcd613f10d64055ea59fe6a941b54ced20f6",
+  "control_hash": "9f14a1a977ac00d348d7d8c1dd9f566fd322282800e37ae1a5ce4f82a506c4c3",
+  "source_info_hash": "56ad9b551b15bd7866a0c8ac6000c46e139579fd384f1de883eecac4a841e0b8",
+  "implementation_hashes": {
+    "refine_ngc628_cnp_response.py": "027e48de56f7a8e717e9e55a722ea4c47449ae8ab04d408af7567f59c1ba3aab",
+    "phangs_cnp_emulator.py": "173dd74896412ad5fcbb860249d97b656b142de9a8824405a3ab7c6eb051550b",
+    "phangs_source_fft.py": "46dff3d0dbb82b24781e1fde5b2639a0fce92cdbfacf45360f44a970512f70c7",
+    "phangs_source_integral.py": "13e2619dbaef4a279d66689b9ad39d356ad5ce13263ed2c88e030fe89d51dce0",
+    "build_ngc628_age_library.py": "d397a8929f49a1472c9c34e0e36cf55e6ba8925b8f01f172780ed336b86548e3",
+    "build_ngc628_cnp_pilot.py": "5386ed435279bd4be91caf5cf122a71b96b0960b059af5c54bf702e446cac489",
+    "phangs_cnp_baseline.py": "7cc1acfa91fa0ded380cfc546ff9b164692632c37e70a55bc91d6fe3236e4294"
+  },
+  "stages": 2,
+  "new_training_points_per_stage": 128,
+  "new_random_holdouts_per_stage": 16,
+  "limit_stress_points_per_stage": 8,
+  "age_nodes": 32,
+  "gaussian_cutoff_sigma": 6,
+  "source_step_kpc": 0.06,
+  "numerical_xi_tolerance": 0.002,
+  "source_completion": "unchanged exponential radial extrapolation; zero arm modulation outside support",
+  "physical_scope": "ONE original nonlocal radial-rate CNP; no arm coupling or extra free parameter",
+  "validation": "old 16 holdouts are development data; new holdouts never select settings within their stage",
+  "schedule": "stage 2 runs only if stage 1 fails; failed stage-1 tests may then become development data",
+  "inference_ready": false
+}

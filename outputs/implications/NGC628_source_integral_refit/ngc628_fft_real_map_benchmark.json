@@ -1,0 +1,16 @@
+{
+  "status": "real-map convolution equivalence passed",
+  "fingerprint": "da5b31af0c75eaeedc5fb81ffb7afb4ae253b8acb95b4f6e727b1c35a40fec13",
+  "raw_moment_max_absolute_errors": {
+    "CP": 4.440892098500626e-16,
+    "mean": 4.996003610813204e-16,
+    "CNP": 4.9960036108132044e-15
+  },
+  "complete_KTZ_curve_max_error": 6.661338147750939e-16,
+  "new_end_to_end_seconds": 63.12934613227844,
+  "new_integral_seconds": 55.54157090187073,
+  "previous_reference_end_to_end_seconds": 137.62730407714844,
+  "valid_pixels": 15201,
+  "ordered_pairs_in_positive_bins": 115366246,
+  "scope": "Same fixed seven-coordinate point and source/beam/window/noise model. Not a new fit or full-prior emulator."
+}

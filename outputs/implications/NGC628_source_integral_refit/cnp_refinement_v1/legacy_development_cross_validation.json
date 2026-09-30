@@ -1,0 +1,279 @@
+{
+  "status": "legacy teacher cross-validation; NOT new independent validation",
+  "development_points": 81,
+  "selected_numerical_settings": {
+    "kind": "variance",
+    "sigma_weight": 0.25,
+    "kernel": "quintic",
+    "rate_slope_factor": true
+  },
+  "scores": [
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 0.25,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.04342993185011484,
+      "mean_cross_validation_bound": 0.005702418852683447,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 0.25,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.02977876466833361,
+      "mean_cross_validation_bound": 0.0037595987844720154,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 0.25,
+        "kernel": "cubic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.03811851994148972,
+      "mean_cross_validation_bound": 0.00516025068650194,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 0.25,
+        "kernel": "cubic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.02642049958672755,
+      "mean_cross_validation_bound": 0.003261659504778162,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 0.25,
+        "kernel": "quintic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.041786246888422876,
+      "mean_cross_validation_bound": 0.005278546345603402,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 0.25,
+        "kernel": "quintic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.02477566031056478,
+      "mean_cross_validation_bound": 0.00316772250774948,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 1.0,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.04181068250075699,
+      "mean_cross_validation_bound": 0.006731877946239056,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 1.0,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.04005185987641072,
+      "mean_cross_validation_bound": 0.005303062445130891,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 1.0,
+        "kernel": "cubic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.03882903129748793,
+      "mean_cross_validation_bound": 0.006606014506745722,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 1.0,
+        "kernel": "cubic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.03914313741167252,
+      "mean_cross_validation_bound": 0.00485545077987935,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 1.0,
+        "kernel": "quintic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.04381402668093094,
+      "mean_cross_validation_bound": 0.007634957723027587,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "original",
+        "sigma_weight": 1.0,
+        "kernel": "quintic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.033991452065892644,
+      "mean_cross_validation_bound": 0.005199406155865336,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 0.25,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.045227475326600874,
+      "mean_cross_validation_bound": 0.005764899900093003,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 0.25,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.027606008596814027,
+      "mean_cross_validation_bound": 0.003820580628786014,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 0.25,
+        "kernel": "cubic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.03702096626356967,
+      "mean_cross_validation_bound": 0.005116039023348042,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 0.25,
+        "kernel": "cubic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.022617371871279438,
+      "mean_cross_validation_bound": 0.003194075015861711,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 0.25,
+        "kernel": "quintic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.02312076576123473,
+      "mean_cross_validation_bound": 0.0043900365887863954,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 0.25,
+        "kernel": "quintic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.01703782596940462,
+      "mean_cross_validation_bound": 0.0028681793558693754,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 1.0,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.045489580451430776,
+      "mean_cross_validation_bound": 0.006304495722643112,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 1.0,
+        "kernel": "thin_plate_spline",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.041325691385439636,
+      "mean_cross_validation_bound": 0.004655656114747872,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 1.0,
+        "kernel": "cubic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.037263983910270096,
+      "mean_cross_validation_bound": 0.005862601872779879,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 1.0,
+        "kernel": "cubic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.04065527418971937,
+      "mean_cross_validation_bound": 0.003940943104113435,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 1.0,
+        "kernel": "quintic",
+        "rate_slope_factor": false
+      },
+      "maximum_cross_validation_bound": 0.03585476035414589,
+      "mean_cross_validation_bound": 0.005950469992345359,
+      "failure": null
+    },
+    {
+      "settings": {
+        "kind": "variance",
+        "sigma_weight": 1.0,
+        "kernel": "quintic",
+        "rate_slope_factor": true
+      },
+      "maximum_cross_validation_bound": 0.022249258991308425,
+      "mean_cross_validation_bound": 0.0034650420120155906,
+      "failure": null
+    }
+  ],
+  "original_pilot": "failed; its former holdouts now belong to development",
+  "all_pixels_and_pairs_retained": true,
+  "inference_ready": false
+}

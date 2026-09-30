@@ -1,0 +1,6 @@
+{
+  "status": "positive-allocation error bound verified",
+  "random_allocations": 10000,
+  "maximum_violation": -0.005548947918662134,
+  "scope": "Numerical bound only; no observed fit or physical validation."
+}

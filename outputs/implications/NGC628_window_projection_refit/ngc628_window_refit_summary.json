@@ -1,0 +1,71 @@
+{
+  "status": "converged",
+  "projection": "raw midpoint local covariance projected on actual finite mask before common normalisation; no 5-kpc covariance cutoff",
+  "source_template_fwhm_kpc": 1.0,
+  "physics_and_physical_prior": "unchanged seven coordinates; no extra fit parameters",
+  "local_source_approximation_retained": true,
+  "mcmc_max_rhat": 1.0249219603518782,
+  "kt18_max_rhat": 1.0041995700899258,
+  "KTZ_median_curve_chi2": 7.998722257408666,
+  "KT18_median_curve_chi2": 28.102212711766047,
+  "regularised_chi2_reference_mean": 13.229675098303002,
+  "observed_shoulder_mean": 0.1079958653017937,
+  "model_shoulder_mean_p16_median_p84": [
+    0.02570762683113617,
+    0.036525879302563374,
+    0.07329458454726327
+  ],
+  "shoulder_covariance_standard_error": 0.04223093147051268,
+  "shoulder_posterior_predictive_upper_tail_fraction": 0.10333333333333333,
+  "shoulder_RMSE": 0.07362365710888434,
+  "posterior_intervals_p16_median_p84": {
+    "ell_star": [
+      0.13820320437354996,
+      0.15503459101730188,
+      0.17627544123353356
+    ],
+    "epsilon": [
+      0.0975287720922633,
+      0.1239286918321388,
+      0.17284717929959484
+    ],
+    "beta": [
+      0.6533836858829598,
+      1.001495164029448,
+      1.5385852987290718
+    ],
+    "eta": [
+      0.7575382831179432,
+      0.9761488707661325,
+      1.157055016500265
+    ],
+    "kappa": [
+      0.06048121450991099,
+      0.09365963331976127,
+      0.1761420509167756
+    ],
+    "t_star": [
+      0.07548119293077428,
+      0.12134441410174543,
+      0.1733731178706353
+    ],
+    "sigma": [
+      0.01619647340221203,
+      0.019392417697057285,
+      0.025112338789289125
+    ],
+    "source_excess_amplitude": [
+      0.03586754587046971,
+      0.18440405144419728,
+      0.6261930912316835
+    ],
+    "source_clustering_length": [
+      0.015286520179577788,
+      0.7793256411092866,
+      1.9033154139636597
+    ]
+  },
+  "elapsed_seconds": 393.62159967422485,
+  "window_emulator_point_check_max_error": 0.00687242953249112,
+  "limitations": "Exact annular projection only for the adopted local covariance and interpolated kernel/rate_log_slope grids. Not a global source-integral solution. Shoulder chosen after inspection: exploratory, not a confirmatory p-value."
+}

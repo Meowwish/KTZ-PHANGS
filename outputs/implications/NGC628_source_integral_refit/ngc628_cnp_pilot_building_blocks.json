@@ -1,0 +1,8 @@
+{
+  "status": "pilot coordinate/interpolation/transfer building blocks verified",
+  "affine_166_output_interpolation_error": 4.440892098500626e-15,
+  "transfer_kernel_vs_age_operator_error": 1.734723475976807e-18,
+  "training_shape_points": 64,
+  "holdout_shape_points": 16,
+  "scope": "Algebra tests only; no physical surrogate accuracy or galaxy posterior claimed."
+}

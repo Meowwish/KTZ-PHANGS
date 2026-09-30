@@ -1,0 +1,154 @@
+{
+  "scope": "NGC628 only; unchanged data, source template, prior and seven fitted coordinates",
+  "posterior_curve_draws_checked": 4000,
+  "posterior_kernel_point_checks": 80,
+  "posterior_kernel_point_check_max_error": 0.004298307464629891,
+  "optimised_state_kernel_point_check_max_error": 0.0012795657756834444,
+  "kernel_check_limitations": "rate_log_slope interpolation, full-window radial representation and local-source approximation held fixed",
+  "prior_max_absolute_difference_from_original": 0.0,
+  "highest_likelihood_retained_chain_chi2": 4.553135186653085,
+  "multistart_constrained_likelihood_chi2": 4.496618453775347,
+  "optimisation_records": [
+    {
+      "start": 0,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.4967764181941705,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 1,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.496618453869547,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 2,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.4966184583543285,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 3,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.496776423463588,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 4,
+      "solver_success": true,
+      "physical_constraints_satisfied": false,
+      "chi2": 4.499358537118613,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 5,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.496618453775347,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 6,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.4967764203269525,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 7,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.496618455381754,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 8,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.496618453870582,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 9,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.496618454245207,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 10,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.49661845586894,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "start": 11,
+      "solver_success": true,
+      "physical_constraints_satisfied": true,
+      "chi2": 4.4966184539788046,
+      "message": "Optimization terminated successfully"
+    }
+  ],
+  "likelihood_state_is_diagnostic_not_posterior_summary": true,
+  "optimised_internal_coordinates": [
+    -1.816880512804661,
+    -2.188660687521127,
+    0.39349265776802256,
+    -0.5001403770273926,
+    0.3499999999999999,
+    -1.4488444331236527,
+    0.790136610365819
+  ],
+  "optimised_coordinate_posterior_percentile_ranks": [
+    0.6486875,
+    0.2020546875,
+    0.8188046875,
+    0.0420390625,
+    1.0,
+    0.6155078125,
+    0.93040625
+  ],
+  "optimised_derived_parameters": {
+    "ell_star": 0.1625319773621488,
+    "epsilon": 0.10077339466329224,
+    "beta": 1.482148401414756,
+    "eta": 0.6064455227173795,
+    "kappa": 0.07249225441899522,
+    "t_star": 0.1803528910715351,
+    "sigma": 0.0163788991001211,
+    "source_excess_amplitude": 0.15844668873913673,
+    "source_clustering_length": 2.2036974536090317,
+    "rate_log_slope": 0.3499999999999999
+  },
+  "observed_shoulder_mean": 0.1079958653017937,
+  "old_pointwise_median_curve_shoulder_mean": 0.020074441464294497,
+  "corrected_pointwise_median_curve_shoulder_mean": 0.037216292490434094,
+  "posterior_of_shoulder_mean_p16_median_p84": [
+    0.02547937923737711,
+    0.036311105265946886,
+    0.07343322341544063
+  ],
+  "shoulder_covariance_standard_error": 0.04223093147051268,
+  "median_curve_shoulder_discrepancy_in_covariance_sigma": 1.6760125895110964,
+  "maximum_line_flux_mc_fraction_of_diagonal_shoulder_variance": 0.0008383162564513827,
+  "optimised_rate_log_slope_distance_from_halpha_prior_mean_in_sigma": 2.9941656291011443,
+  "optimised_curve_shoulder_mean": 0.08974816167461216,
+  "optimised_curve_shoulder_RMSE": 0.019832332942552076,
+  "old_shoulder_RMSE": 0.09059178839948517,
+  "corrected_shoulder_RMSE": 0.07362365710888434,
+  "shoulder_RMSE_fractional_reduction": 0.18730319370422388,
+  "posterior_probability_source_length_above_1_kpc": 0.444234375,
+  "conditional_shoulder_mean_given_source_length_above_1_kpc_p16_median_p84": [
+    0.042015600295751354,
+    0.06400512224207791,
+    0.09227889090049694
+  ],
+  "shoulder_definition_is_exploratory": true,
+  "posterior_interval_is_mean_curve_not_replicated_observation": true,
+  "all_galaxy_manuscript_results_replaced": false
+}

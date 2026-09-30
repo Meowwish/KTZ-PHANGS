@@ -1,0 +1,49 @@
+{
+  "status": "completed covariance-level small-map experiment",
+  "realisations": 4000,
+  "observed_pixels": 46,
+  "ordered_pair_counts": [
+    388,
+    566,
+    636,
+    390,
+    90
+  ],
+  "mean_random_ratio": [
+    0.6212884150198288,
+    0.0989540714782027,
+    -0.24357229940238156,
+    -0.3013599494762191,
+    -0.26331583066105363
+  ],
+  "ratio_of_expected_moments": [
+    0.671354052487811,
+    0.15762177548614403,
+    -0.26108082612037775,
+    -0.36231182907276316,
+    -0.3426964104356567
+  ],
+  "empirical_ratio_of_averaged_moments": [
+    0.668832948974674,
+    0.1527445167512433,
+    -0.26198161218612676,
+    -0.35573059581055655,
+    -0.3287110713637058
+  ],
+  "Monte_Carlo_standard_error_of_mean_ratio": [
+    0.0019070884201320686,
+    0.0024842222501935724,
+    0.0012974086077296623,
+    0.003034219650961731,
+    0.006199757425602421
+  ],
+  "normalisation_bias_mean_ratio_minus_ratio_of_moments": [
+    -0.050065637467982205,
+    -0.05866770400794133,
+    0.017508526717996187,
+    0.06095187959654408,
+    0.07938057977460306
+  ],
+  "scope": "Gaussian covariance-level recovery on a fixed irregular small mask; no pair sampling. Not a correction inferred for NGC628.",
+  "remaining": "Native multi-line PSF/calibration/selection injection-recovery and independent posterior calibration are not performed by this experiment."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "CP/mean response library completed; CNP emulation and MCMC not completed",
+  "variance_nodes": 65,
+  "slope_nodes": 9,
+  "intrinsic_sigma_range_kpc": [
+    0.015,
+    3.2
+  ],
+  "rate_log_slope_range_kpc_inv": [
+    -0.35,
+    0.35
+  ],
+  "training_node_seconds_sum": 295.52668809890747,
+  "reference_age_integrated_curve_error_CNP_held_exact": 3.6960441410771594e-06,
+  "withheld_single_age_points": [
+    {
+      "intrinsic_variance_kpc2": 0.0007,
+      "rate_log_slope_kpc_inv": -0.299,
+      "single_age_probe_curve_max_error": 6.432027882803497e-07
+    },
+    {
+      "intrinsic_variance_kpc2": 0.012,
+      "rate_log_slope_kpc_inv": 0.103,
+      "single_age_probe_curve_max_error": 8.520715702009518e-06
+    },
+    {
+      "intrinsic_variance_kpc2": 0.22,
+      "rate_log_slope_kpc_inv": 0.319,
+      "single_age_probe_curve_max_error": 1.2459434800549118e-06
+    },
+    {
+      "intrinsic_variance_kpc2": 3.0,
+      "rate_log_slope_kpc_inv": 0.103,
+      "single_age_probe_curve_max_error": 3.6865399099306195e-05
+    }
+  ],
+  "tested_CP_mean_precision_gate_passed": true,
+  "all_pixel_pairs_retained": true,
+  "valid_pixels": 15201,
+  "interpretation": "CNP is frozen at its exact known value ONLY for the reference-point test. This library must not be used as a complete variable-CNP KTZ likelihood.",
+  "remaining": "Additional prior-wide/refinement/source-boundary validation; nonlocal CNP surrogate; native-flux recovery; new independent-ensemble KTZ/KT18 fitting."
+}

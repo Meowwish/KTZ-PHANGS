@@ -1,0 +1,156 @@
+{
+  "status": "nonlocal CNP pilot completed; no new galaxy posterior sampled",
+  "training_points": 65,
+  "independent_heldout_points": 16,
+  "tested_CNP_precision_gate_passed": false,
+  "absolute_xi_tolerance": 0.002,
+  "heldout_diagnostics": [
+    {
+      "heldout_index": 0,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0010945239126904024,
+      "maximum_mixture_probe_curve_error": 0.001094516671820072,
+      "ell_star_kpc": 0.18439110025965796,
+      "epsilon": 0.7257875386416538,
+      "rate_log_slope_kpc_inv": 0.08775043077766892
+    },
+    {
+      "heldout_index": 1,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0011817724580140184,
+      "maximum_mixture_probe_curve_error": 0.0011797926142128445,
+      "ell_star_kpc": 0.47662533242991667,
+      "epsilon": 0.05251235703628866,
+      "rate_log_slope_kpc_inv": -0.19926082091405986
+    },
+    {
+      "heldout_index": 2,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.008828011483745693,
+      "maximum_mixture_probe_curve_error": 0.008827117430419404,
+      "ell_star_kpc": 1.250958761575169,
+      "epsilon": 0.05748768588990217,
+      "rate_log_slope_kpc_inv": 0.28359395181760194
+    },
+    {
+      "heldout_index": 3,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.003348565524707292,
+      "maximum_mixture_probe_curve_error": 0.003321981369854379,
+      "ell_star_kpc": 0.3003608769598295,
+      "epsilon": 0.15517582942709285,
+      "rate_log_slope_kpc_inv": -0.042369982600212075
+    },
+    {
+      "heldout_index": 4,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0015420529365163596,
+      "maximum_mixture_probe_curve_error": 0.0015344191385599504,
+      "ell_star_kpc": 0.21468072762052628,
+      "epsilon": 0.4572224136866854,
+      "rate_log_slope_kpc_inv": -0.27871216647326946
+    },
+    {
+      "heldout_index": 5,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.001774316609795601,
+      "maximum_mixture_probe_curve_error": 0.002434829951412476,
+      "ell_star_kpc": 2.052103953760825,
+      "epsilon": 0.015322530729223604,
+      "rate_log_slope_kpc_inv": 0.03595244390890001
+    },
+    {
+      "heldout_index": 6,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0007233889245590597,
+      "maximum_mixture_probe_curve_error": 0.0007220455495598882,
+      "ell_star_kpc": 0.7587569424049238,
+      "epsilon": 0.24041993330392314,
+      "rate_log_slope_kpc_inv": -0.09378344798460603
+    },
+    {
+      "heldout_index": 7,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0005776948121292147,
+      "maximum_mixture_probe_curve_error": 0.0005776828278284407,
+      "ell_star_kpc": 0.1288254000434102,
+      "epsilon": 0.6181971222383496,
+      "rate_log_slope_kpc_inv": -0.1319350886158645
+    },
+    {
+      "heldout_index": 8,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.010483327150280344,
+      "maximum_mixture_probe_curve_error": 0.006472206686423634,
+      "ell_star_kpc": 1.1319313597447975,
+      "epsilon": 0.053138008245178274,
+      "rate_log_slope_kpc_inv": 0.24207830037921663
+    },
+    {
+      "heldout_index": 9,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.02550287148385219,
+      "maximum_mixture_probe_curve_error": 0.025395384509468093,
+      "ell_star_kpc": 2.806182316901745,
+      "epsilon": 0.06153421080758328,
+      "rate_log_slope_kpc_inv": -0.3278012966737151
+    },
+    {
+      "heldout_index": 10,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.002503586444205428,
+      "maximum_mixture_probe_curve_error": 0.002503179795335299,
+      "ell_star_kpc": 0.28383166736848736,
+      "epsilon": 0.0976704769205348,
+      "rate_log_slope_kpc_inv": 0.08521012822166085
+    },
+    {
+      "heldout_index": 11,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.006351541313919434,
+      "maximum_mixture_probe_curve_error": 0.0063331451709170705,
+      "ell_star_kpc": 0.4975813282099234,
+      "epsilon": 0.4711312712938094,
+      "rate_log_slope_kpc_inv": 0.32191414656117556
+    },
+    {
+      "heldout_index": 12,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0019358645196176985,
+      "maximum_mixture_probe_curve_error": 0.0019020593067504143,
+      "ell_star_kpc": 0.7382527813904455,
+      "epsilon": 0.14624557237495106,
+      "rate_log_slope_kpc_inv": 0.13700813595205547
+    },
+    {
+      "heldout_index": 13,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.00037426882187772265,
+      "maximum_mixture_probe_curve_error": 0.00037426276278036685,
+      "ell_star_kpc": 0.17172169308192287,
+      "epsilon": 0.23534903509793315,
+      "rate_log_slope_kpc_inv": -0.24834997197613118
+    },
+    {
+      "heldout_index": 14,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.004450869111046396,
+      "maximum_mixture_probe_curve_error": 0.004450003982442494,
+      "ell_star_kpc": 0.1978314949211714,
+      "epsilon": 0.6218996247106543,
+      "rate_log_slope_kpc_inv": 0.22544357907027002
+    },
+    {
+      "heldout_index": 15,
+      "positive_second_moments": true,
+      "CNP_only_shape_error": 0.0041984107347465965,
+      "maximum_mixture_probe_curve_error": 0.004196666113367886,
+      "ell_star_kpc": 0.5858150347380368,
+      "epsilon": 0.06647004260460151,
+      "rate_log_slope_kpc_inv": -0.1605857933871448
+    }
+  ],
+  "scope": "Fixed-parameter source-integral interpolation, conditioned on stated radial extrapolation; not observational support or native-flux validation.",
+  "physical_components": "one CNP only; regression baseline + deterministic numerical residual are not extra fitted physical terms",
+  "next": "Refine failed heldouts/domain tests; native-flux recovery and independent-ensemble KTZ/KT18 fits only after complete response is validated."
+}

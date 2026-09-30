@@ -1,0 +1,67 @@
+{
+  "independent_ensembles": 4,
+  "retained_steps_per_ensemble": 18000,
+  "walkers_per_ensemble": 16,
+  "Rhat_walker_indices": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "target_names": [
+    "x0",
+    "x1",
+    "squared_radius"
+  ],
+  "max_rank_folded_split_Rhat_across_selected_trajectories": [
+    1.0023888589137713,
+    1.0062256210546192,
+    1.0011692792371303
+  ],
+  "ensemble_mean_autocorrelation_times": [
+    [
+      31.30193320133711,
+      36.35853874008,
+      11.085602477050974
+    ],
+    [
+      32.952209288381255,
+      30.098300836947352,
+      9.298607320830595
+    ],
+    [
+      33.60774887084468,
+      36.98742750856054,
+      10.302664379098784
+    ],
+    [
+      29.782435871727397,
+      40.97072875724305,
+      11.76577974083368
+    ]
+  ],
+  "target_function_MCSE": [
+    0.0053204182585906016,
+    0.005609103260991288,
+    0.00602109018761834
+  ],
+  "target_function_ESS": [
+    35252.564144602264,
+    31760.77309730334,
+    109111.32159547321
+  ],
+  "time_series_length_at_least_50_tau": true,
+  "numerical_sampling_gate_passed": true,
+  "scope": "Closed-form Gaussian sampler test, NOT a new galaxy fit or SBC.",
+  "gaussian_target_means": [
+    -0.004866027805504974,
+    0.0032156567738499168,
+    1.997180040453816
+  ],
+  "expected_means": [
+    0.0,
+    0.0,
+    2.0
+  ],
+  "shifted_restart_rejected": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "Gaussian endpoint control and exact age-sum integral verified",
+  "dense_covariance_errors": [
+    2.6645352591003757e-14,
+    2.4868995751603507e-14,
+    3.730349362740526e-14
+  ],
+  "scope": "This control is not the variable-rate nonlocal CNP theory; no galaxy fit uses it alone."
+}

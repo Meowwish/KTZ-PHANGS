@@ -1,0 +1,200 @@
+{
+  "galaxy": "NGC4254",
+  "catalog_sha256": "46c07f4cfdbb7ab32bc23e6dd1649d8045bfb05532891f45e644169e6b1745ec",
+  "nebula_mask_sha256": "d5468ec9a78673a91984dc8c68f925a5454a30ede430dc5af5c42da39e0b9934",
+  "muse_maps_sha256": "3dabca784c5991c99d6c821645b617a6129160f99a3f897e4d5c7efddeccb1fb",
+  "muse_maps_product_id": "ADP.2021-07-16T10:20:56.482",
+  "r_band_sha256": "36d3f3eb23dc5243a158d9110ff2531914320fca9a0bdcaa0373f076b129e1b0",
+  "r_band_product_id": "ADP.2021-07-16T10:20:56.480",
+  "metallicity_field": "direct PHANGS-MUSE spaxel S-calibration map",
+  "native_copt_psf_fwhm_arcsec": 0.89,
+  "target_psf_fwhm_kpc": 0.12,
+  "face_on_cell_size_kpc": 0.06,
+  "annular_detrending_width_kpc": 0.2,
+  "line_sn_minimum": 2.0,
+  "line_coverage_minimum": 0.8,
+  "metallicity_error_maximum_dex": null,
+  "halpha_ew_minimum_angstrom": 6.0,
+  "halpha_ew_scale": 1.1208967750074004,
+  "halpha_ew_scale_p16_p84": [
+    1.008691984963391,
+    1.2561249025649541
+  ],
+  "n_annulus_grid_cells": 11868,
+  "n_li21_ew_cells": 11158,
+  "n_li21_bpt_cells": 11842,
+  "n_face_on_analysis_cells": 11152,
+  "analysis_rmin_kpc": 0.9526590513180578,
+  "analysis_rmax_kpc": 3.8106362052722313,
+  "r_ref_kpc": 2.2511776690710787,
+  "environment_mask_data_doi": "10.11570/21.0024",
+  "source_geometry_sha256": "20c8fdeecfd692b9748181d2788e956e2d8c9e1b58a006d47f144661d56b9a33",
+  "source_geometry_kind": "annular-normalised 0.5-kpc-smoothed H-alpha map",
+  "halpha_template_fwhm_kpc": 0.5,
+  "environment_mask_role": "external morphology overlay only",
+  "arm_labels": [
+    5,
+    6
+  ],
+  "interarm_labels": [
+    4,
+    7
+  ],
+  "mask_contrast_amplitude": 0.6876732667816904,
+  "mask_contrast_amplitude_error": 0.2406856433735916,
+  "arm_area_fraction_on_grid": 0.48735051980049277,
+  "unit_arm_rate_profile_minimum": 0.07432929258610099,
+  "maximum_positive_eta": 1.0586918135693026,
+  "event_rate_log_slope_kpc_inv": -0.3780197383949089,
+  "inv_h_R_halpha_kpc_inv": 0.3780197383949089,
+  "event_rate_log_slope_error_kpc_inv": 0.05550272855888305,
+  "halpha_sfr_msun_per_yr": 1.5288791568812716,
+  "gamma_ref_at_halpha_slope_myr_inv_kpc_inv2": 43.460688357490476,
+  "inference": "reparameterised affine-invariant KTZ + isotropic C_NP and independent KT18 ensemble MCMC",
+  "ktz_internal_parameter_names": [
+    "log_ell_star",
+    "logit_epsilon",
+    "log_beta",
+    "log_eta",
+    "rate_log_slope",
+    "log_beta_A_src",
+    "log_ell_src"
+  ],
+  "ktz_n_free_parameters": 7,
+  "fixed_gamma_scale": 1.0,
+  "fit_range_kpc": [
+    0.0,
+    5.0
+  ],
+  "zero_lag_anchor_fixed_to_unity": true,
+  "n_fitted_positive_separation_bins": 83,
+  "kt18_internal_parameter_names": [
+    "log_ell_star",
+    "logit_epsilon"
+  ],
+  "prior_measure": "legacy physical prior with informative H-alpha priors on eta and rate_log_slope (h_R^-1), fixed s_gamma=1, and exact Jacobian; KT18 uses the same transport bounds",
+  "mcmc_walkers": 64,
+  "mcmc_steps": 50000,
+  "mcmc_burn_steps": 10000,
+  "mcmc_mean_acceptance": 0.249669375,
+  "mcmc_max_rhat": 1.024456549368507,
+  "kt18_mcmc_walkers": 32,
+  "kt18_mcmc_steps": 15000,
+  "kt18_mcmc_burn_steps": 4000,
+  "kt18_mcmc_mean_acceptance": 0.7125333333333335,
+  "kt18_mcmc_max_rhat": 1.0030425276256838,
+  "full_pair_emulator_max_error_at_coordinate_median": 0.011873287517565445,
+  "fit_covariance_raw_rank": 83,
+  "fit_covariance_effective_rank": 13.364295629776482,
+  "regularised_chi2_reference_mean": 16.68786745949842,
+  "regularised_chi2_reference_effective_dof": 15.063653616458145,
+  "coordinate_median_fit_chi2": 13.048497438554918,
+  "indicative_fit_dof": 76,
+  "indicative_fit_pvalue": 1.0,
+  "complete_ktz_posterior_median_curve_chi2": 11.531899711422831,
+  "complete_ktz_nominal_reduced_chi2": 0.15173552251872147,
+  "complete_ktz_covariance_calibrated_discrepancy": 0.6910349533522385,
+  "kt18_posterior_median_curve_chi2": 7.700461984862307,
+  "kt18_nominal_reduced_chi2": 0.09506743191188033,
+  "kt18_covariance_calibrated_discrepancy": 0.4614407445140241,
+  "posterior_median_source_excess_amplitude": 0.32079549235814087,
+  "posterior_median_source_clustering_length_kpc": 0.032958183267963806,
+  "kt18_posterior_median_ell_star_kpc": 0.41569810909292854,
+  "kt18_posterior_median_epsilon": 0.056509405507387755,
+  "residual_mean_dex": -2.5911344859316153e-08,
+  "observation_noise_transfer": "fixed from 200 line-flux MC maps",
+  "median_noise_signal_fraction": 0.9998769030941898,
+  "residual_mean_jackknife_error_dex": 6.314464755386622e-07,
+  "maximum_centering_change_in_xi": 3.512041640840735e-08,
+  "posterior_intervals_p16_median_p84": {
+    "ell_star": [
+      0.11148522017312738,
+      0.12384487548850291,
+      0.15581218040078199
+    ],
+    "epsilon": [
+      0.2722952723275935,
+      0.48327972044569606,
+      0.6135248060695787
+    ],
+    "beta": [
+      1.0856364703653552,
+      1.8620348975157333,
+      4.746964506768489
+    ],
+    "eta": [
+      0.6075357697194775,
+      0.7683112833467923,
+      0.932464539481871
+    ],
+    "rate_log_slope": [
+      -0.3408091966649126,
+      -0.31841164581614817,
+      -0.2810123920974257
+    ],
+    "inv_h_R": [
+      0.2810123920974257,
+      0.31841164581614817,
+      0.3408091966649126
+    ],
+    "beta_A_src": [
+      0.04393676509039485,
+      0.5579818649980894,
+      79.4918969498162
+    ],
+    "source_clustering_ratio": [
+      0.0645084867088988,
+      0.24735815980246292,
+      5.814629924219728
+    ],
+    "source_excess_amplitude": [
+      0.027278443226706767,
+      0.32079549235814087,
+      23.68827173617204
+    ],
+    "source_clustering_length": [
+      0.008709228787937708,
+      0.032958183267963806,
+      0.7107030186034717
+    ],
+    "kappa": [
+      0.057119254442142095,
+      0.07729986485053278,
+      0.138523476742188
+    ],
+    "t_star": [
+      0.05430404676574649,
+      0.0672167587957947,
+      0.10275045447389547
+    ],
+    "sigma": [
+      0.04176465604002827,
+      0.05837696429440954,
+      0.0705356927629121
+    ],
+    "kappa_t_star": [
+      0.003985107690933004,
+      0.005695444528081945,
+      0.011179855997441004
+    ],
+    "gamma_ref": [
+      42.580367934889175,
+      42.9482238705985,
+      43.151582940799734
+    ]
+  },
+  "kt18_posterior_intervals_p16_median_p84": {
+    "ell_star": [
+      0.35640222238305436,
+      0.41569810909292854,
+      0.4884900817536014
+    ],
+    "epsilon": [
+      0.039340397039497876,
+      0.056509405507387755,
+      0.07924240884931953
+    ]
+  },
+  "posterior_probability_ell_src_gt_1_kpc": 0.124859375,
+  "identifiability_note": "The sampler follows the manuscript-identifiable combinations ell_star, epsilon, beta_src, beta_src*A_src, and ell_src; eta and rate_log_slope (h_R^-1) are fitted with independent H-alpha priors; s_gamma is fixed, so kappa and t_star remain calibration-conditional derived quantities"
+}

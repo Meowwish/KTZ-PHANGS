@@ -1,0 +1,20 @@
+{
+  "status": "completed fixed-coordinate real-map numerical refinement",
+  "age_32_vs_64": {
+    "max_absolute_curve_change": 4.272313613995493e-10,
+    "elapsed_seconds": 131.5801260471344
+  },
+  "source_grid_60_vs_30_pc": {
+    "max_absolute_curve_change": 0.000145113529263996,
+    "elapsed_seconds": 482.3692102432251
+  },
+  "point_precision_gate_passed": true,
+  "thresholds_absolute_xi": {
+    "age": 0.0005,
+    "source_grid": 0.002
+  },
+  "all_observed_pixels": 15201,
+  "ordered_pixel_pairs_in_positive_bins": 115366246,
+  "scope": "One fixed joint point, unchanged source completion and frozen measurement response. Not a new fit or full-prior precision gate.",
+  "remaining": "Prior-wide beam/grid/age/Gaussian-cutoff/boundary/source-completion tests, validated fast emulator, native-flux recovery, independent MCMC."
+}

@@ -1,0 +1,4 @@
+{
+  "maximum_absolute_correlation_error_over_40_old_states": 0.00687242953249112,
+  "scope": "kernel-grid and age-quadrature point check; rate_log_slope interpolation, radial representation and local-source assumptions held fixed"
+}

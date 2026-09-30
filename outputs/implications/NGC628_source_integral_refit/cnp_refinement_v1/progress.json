@@ -1,0 +1,13 @@
+{
+  "stage": 1,
+  "phase": "exact nonlocal source integrals",
+  "role": "new training (source integrals only)",
+  "completed_points_in_role": 2,
+  "points_in_role": 128,
+  "ell_star_kpc": 0.09430371057030286,
+  "rate_log_slope_kpc_inv": -0.3315451083704829,
+  "L_src_kpc": 0.19599979923006045,
+  "role_elapsed_seconds": 790.9596347808838,
+  "all_pixels_and_pairs_retained": true,
+  "not_a_galaxy_fit": true
+}

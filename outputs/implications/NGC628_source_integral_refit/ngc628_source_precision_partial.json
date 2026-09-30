@@ -1,0 +1,10 @@
+{
+  "age64_source60pc": {
+    "max_absolute_curve_change": 4.272313613995493e-10,
+    "elapsed_seconds": 131.5801260471344
+  },
+  "age32_source30pc": {
+    "max_absolute_curve_change": 0.000145113529263996,
+    "elapsed_seconds": 482.3692102432251
+  }
+}

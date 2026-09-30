@@ -1,0 +1,80 @@
+2026-09-07 23:18:59\tNGC1300\tdownload\tstarted
+2026-09-07 23:22:34\tNGC1300\tdownload\tfailed
+2026-09-07 23:22:34\tNGC4254\tdownload\tstarted
+2026-09-07 23:26:42\tNGC4254\tdownload\tcomplete
+2026-09-07 23:26:42\tNGC4303\tdownload\tstarted
+2026-09-07 23:28:27\tNGC4303\tdownload\tcomplete
+2026-09-07 23:28:27\tNGC4321\tdownload\tstarted
+2026-09-07 23:31:28\tNGC4321\tdownload\tcomplete
+2026-09-07 23:31:28\tNGC4535\tdownload\tstarted
+2026-09-08 07:54:47	NGC628	download	started
+2026-09-08 07:54:49	NGC628	download	complete
+2026-09-08 07:54:49	NGC1566	download	started
+2026-09-08 07:54:49	NGC1566	download	complete
+2026-09-08 07:54:49	NGC1300	download	started
+2026-09-08 07:54:54	NGC1300	download	failed
+2026-09-08 07:54:54	NGC4254	download	started
+2026-09-08 07:54:58	NGC4254	download	complete
+2026-09-08 07:54:58	NGC4303	download	started
+2026-09-08 07:55:12	NGC4303	download	complete
+2026-09-08 07:55:12	NGC4321	download	started
+2026-09-08 07:55:18	NGC4321	download	complete
+2026-09-08 07:55:18	NGC4535	download	started
+2026-09-08 07:55:45	NGC628	download	started
+2026-09-08 07:55:45	NGC628	download	complete
+2026-09-08 07:55:45	NGC1566	download	started
+2026-09-08 07:55:45	NGC1566	download	complete
+2026-09-08 07:55:45	NGC1300	download	started
+2026-09-08 07:55:53	NGC1300	download	failed
+2026-09-08 07:55:53	NGC4254	download	started
+2026-09-08 07:55:53	NGC4254	download	complete
+2026-09-08 07:55:53	NGC4303	download	started
+2026-09-08 07:55:53	NGC4303	download	complete
+2026-09-08 07:55:53	NGC4321	download	started
+2026-09-08 07:55:53	NGC4321	download	complete
+2026-09-08 07:55:53	NGC4535	download	started
+2026-09-08 07:57:15	NGC4535	download	failed
+2026-09-08 07:57:31	NGC4535	download	failed
+2026-09-08 08:23:23	NGC628	download	started
+2026-09-08 08:23:24	NGC628	download	complete
+2026-09-08 08:23:24	NGC1566	download	started
+2026-09-08 08:23:24	NGC1566	download	complete
+2026-09-08 08:23:24	NGC1300	download	started
+2026-09-08 08:23:24	NGC1300	download	complete
+2026-09-08 08:23:24	NGC4254	download	started
+2026-09-08 08:23:24	NGC4254	download	complete
+2026-09-08 08:23:24	NGC4303	download	started
+2026-09-08 08:23:24	NGC4303	download	complete
+2026-09-08 08:23:24	NGC4321	download	started
+2026-09-08 08:23:24	NGC4321	download	complete
+2026-09-08 08:23:24	NGC4535	download	started
+2026-09-08 08:23:24	NGC4535	download	complete
+2026-09-08 09:16:16	NGC628	download	started
+2026-09-08 09:16:16	NGC628	download	complete
+2026-09-08 09:16:16	NGC1566	download	started
+2026-09-08 09:16:16	NGC1566	download	complete
+2026-09-08 09:16:16	NGC1300	download	started
+2026-09-08 09:16:16	NGC1300	download	complete
+2026-09-08 09:16:16	NGC4254	download	started
+2026-09-08 09:16:16	NGC4254	download	complete
+2026-09-08 09:16:16	NGC4303	download	started
+2026-09-08 09:16:16	NGC4303	download	complete
+2026-09-08 09:16:16	NGC4321	download	started
+2026-09-08 09:16:16	NGC4321	download	complete
+2026-09-08 09:16:16	NGC4535	download	started
+2026-09-08 09:16:16	NGC4535	download	complete
+2026-09-08 09:16:16	NGC628	analysis	started
+2026-09-08 09:51:47	NGC628	analysis	complete
+2026-09-08 09:51:47	NGC1566	analysis	started
+2026-09-08 10:31:25	NGC1566	analysis	complete
+2026-09-08 10:31:25	NGC1300	analysis	started
+2026-09-08 11:45:23	NGC1300	analysis	complete
+2026-09-08 11:45:24	NGC4254	analysis	started
+2026-09-08 12:12:58	NGC4254	analysis	complete
+2026-09-08 12:12:58	NGC4303	analysis	started
+2026-09-08 12:27:05	NGC4303	analysis	complete
+2026-09-08 12:27:05	NGC4321	analysis	started
+2026-09-08 12:31:49	NGC4321	analysis	restarted
+2026-09-08 13:09:20	NGC4321	analysis	complete
+2026-09-08 13:09:20	NGC4535	analysis	restarted
+2026-09-08 14:00:52	NGC4535	analysis	complete

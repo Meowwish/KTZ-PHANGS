@@ -1,0 +1,47 @@
+{
+  "galaxy": "NGC628",
+  "padding_kpc": 1.62,
+  "source_step_kpc": 0.06,
+  "template_fwhm_kpc": 1.0,
+  "rate_log_slope_covered_area_kpc_inv": 0.21627567649129348,
+  "rate_log_slope_full_area_kpc_inv": 0.028598891914949486,
+  "rate_log_slope_bootstrap_or_regression_error": 0.10224025661593436,
+  "covered_area_fraction_per_ring": [
+    0.9899426069259923,
+    1.0030979904067363,
+    0.9764740000290396,
+    0.902937684360163,
+    0.726075972879528,
+    0.4876888590361555
+  ],
+  "measured_qualified_Halpha_SFR": 0.5900678309110252,
+  "covered_area_extrapolated_Halpha_SFR": 0.7739633861995905,
+  "minimum_modulation": -0.9563115420225566,
+  "maximum_positive_eta": 1.0247706494552427,
+  "reference_radius_kpc": 3.6752634194855274,
+  "beam_covariance_face_on_kpc2": [
+    [
+      0.002601149081035241,
+      -3.895429907140204e-06
+    ],
+    [
+      -3.895429907140204e-06,
+      0.002571901737191514
+    ]
+  ],
+  "analysis_source_cells": {
+    "detected_SF": 15253,
+    "low_EW_assumed_quiet": 2078,
+    "unclassified_covered": 2866,
+    "not_covered": 5351
+  },
+  "assumptions": [
+    "Low EW with EW+2 propagated/proxy-scatter error <6 A is treated as zero in the chosen SF tracer, not proven physically source-free.",
+    "Unclassified covered cells and unobserved cells remain unknown; mask-aware smoothing interpolates from supported cells. This is a fixed source-completion assumption, not new metallicity data.",
+    "Annular source modulation is zero outside supported H-alpha; axisymmetric radial rate is extrapolated there. Boundary/completion sensitivity must be quantified.",
+    "Coverage-area correction assumes observed sectors represent missing sectors; angular bootstrap is conditional and cannot remove informative selection.",
+    "SF-selected H-alpha can miss faint sources and includes shared line-measurement errors with metallicity. No claim of statistical independence.",
+    "The unknown-flux scenario is not an upper confidence bound; median detected Balmer attenuation is assumed.",
+    "Sky PSF transforms elliptically to face-on. Linear-field convolution remains an approximation to flux convolution followed by nonlinear abundance calibration."
+  ]
+}

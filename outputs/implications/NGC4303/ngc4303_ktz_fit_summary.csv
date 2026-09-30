@@ -1,0 +1,3 @@
+model,n_parameters,nominal_dof,posterior_median_curve_chi2,nominal_reduced_chi2_not_calibrated,regularised_chi2_reference_mean,covariance_calibrated_discrepancy,median_ell_star_kpc,median_epsilon,median_beta_src,median_source_excess_amplitude,median_source_clustering_length_kpc
+KTZ + isotropic C_NP,7,76,12.542967160247601,0.16503904158220528,10.307374312819908,1.2168925644474897,0.20349027733455644,0.22304110065224883,6.250978759944769,0.10565560767157534,0.22473980895127318
+KT18,2,81,9.521557449193919,0.11755009196535703,10.307374312819908,0.9237616836473455,0.7820396680782333,0.02416116676781002,nan,nan,nan

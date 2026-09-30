@@ -1,0 +1,18 @@
+Executing cell 0: # NGC 628: global source-integral implementation and validation  **Stage:** numerical impl
+Executing cell 1: from __future__ import annotations  import hashlib from io import BytesIO import json impo
+Executing cell 2: ## 1. Download the PHANGS--MUSE line maps, continuum image, and masks  The primary abundan
+Executing cell 3: CATALOG_URL = (     "https://dataportal.eso.org/dataPortal/file/"     "ADP.2025-05-14T09:1
+Executing cell 4: ## 2. Retain the catalogue-calibrated face-on coordinate transform  The catalogue sets the
+Executing cell 5: catalog = Table.read(CATALOG_PATH)   def numeric_column(name: str) -> np.ndarray:     retu
+Executing cell 6: ## 3. Construct the Li21-style spaxel metallicity fluctuation map  All available line flux
+Executing cell 7: LINE_EXTENSIONS = {     "hb": "HB4861",     "oiii": "OIII5006",     "ha": "HA6562",     "n
+Executing cell 8: ## 4. Coverage-aware padded H-alpha source  The source grid extends at least 1.62 kpc beyo
+Executing cell 9: from scripts.phangs_source_inputs import prepare_sources source_input_summary = prepare_so
+Executing cell 10: from matplotlib.colors import ListedColormap, LogNorm with np.load(OUTPUT_DIR / "ngc628_pa
+Executing cell 11: ## 5. Physical response and independent numerical checks  Let $G_u$ be the sampled Gaussia
+Executing cell 12: from scripts.test_phangs_source_integral import run_tests numerical_validation = run_tests
+Executing cell 13: ## 6. Finite-map normalisation recovery — limited scope  On a fixed irregular small map, d
+Executing cell 14: from scripts.phangs_source_ratio_recovery import run_ratio_recovery normalisation_recovery
+Executing cell 15: ## 7. Full real-data reference calculation (may take a long time)  The coordinate vector i
+Executing cell 16: from scripts.reference_ngc628_source_integral import run_reference_point reference_point_s
+NGC628 source-integral validation/reference notebook execution complete.

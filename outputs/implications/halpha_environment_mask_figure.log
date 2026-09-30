@@ -1,0 +1,17 @@
+R25 = 13.968 kpc; analysis annulus = [1.397, 5.587] kpc
+Target PSF/pixel = 0.120/0.060 kpc
+environment_label qualified_HII_regions
+----------------- ---------------------
+                6                  1292
+                7                   767
+Traceback (most recent call last):
+  File "/Users/meow/Latex/KT+SpiralArms/scripts/make_phangs_halpha_environment_mask_comparison.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/meow/Latex/KT+SpiralArms/scripts/make_phangs_halpha_environment_mask_comparison.py", line 67, in main
+    namespace = execute_preparation_cells(galaxy)
+  File "/Users/meow/Latex/KT+SpiralArms/scripts/make_phangs_halpha_environment_mask_comparison.py", line 37, in execute_preparation_cells
+    exec(preparation, namespace)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 406, in <module>
+ModuleNotFoundError: No module named 'scripts'

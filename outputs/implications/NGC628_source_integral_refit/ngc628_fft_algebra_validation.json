@@ -1,0 +1,44 @@
+{
+  "convolution": {
+    "status": "convolution algebra verified against original discrete source operators",
+    "checks": [
+      {
+        "CP": 5.551115123125783e-17,
+        "mean": 3.469446951953614e-17,
+        "CNP": 1.942890293094024e-16,
+        "rate_log_slope": 0.25,
+        "source_length_kpc": 0.08,
+        "curve_error": 2.7755575615628914e-16
+      },
+      {
+        "CP": 8.326672684688674e-17,
+        "mean": 2.7755575615628914e-17,
+        "CNP": 1.3010426069826053e-18,
+        "rate_log_slope": -0.3,
+        "source_length_kpc": 0.005,
+        "curve_error": 2.220446049250313e-16
+      },
+      {
+        "CP": 8.326672684688674e-17,
+        "mean": 2.2551405187698492e-17,
+        "CNP": 4.0158848468863084e-16,
+        "rate_log_slope": 0.35,
+        "source_length_kpc": 0.8,
+        "curve_error": 5.551115123125783e-16
+      }
+    ],
+    "scope": "Independent irregular small-map exact discrete checks; not full-prior emulator validation."
+  },
+  "single_age": {
+    "status": "single-age full-pair responses match direct source matrices",
+    "max_absolute_density_response_errors": [
+      1.3393730569077889e-12,
+      3.1730174043786974e-13,
+      1.4317436125566019e-12,
+      3.3872904481313526e-13,
+      1.5081269566508126e-12,
+      3.566036355096003e-13
+    ],
+    "scope": "single-age algebra only; no CNP emulator or galaxy fit supplied by this library"
+  }
+}

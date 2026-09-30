@@ -1,0 +1,40 @@
+{
+  "status": "completed fixed-coordinate real-data reference calculation; NOT refitted",
+  "fingerprint": "d68292942b6931700b5e83b90e0ddaefb4db6b7565090674c84049d432526d34",
+  "elapsed_seconds": 137.62730407714844,
+  "coordinates": {
+    "log_ell": -1.8772070252409891,
+    "logit_epsilon": -1.9660595508376173,
+    "log_beta": -0.08275545241728027,
+    "log_eta": -0.004696735459212648,
+    "rate_log_slope": 0.07049416828810354,
+    "log_betaA": -1.8637967902362114,
+    "log_source_length": -0.09667541555174064
+  },
+  "physical_shape_parameters": {
+    "ell_star_kpc": 0.15301688178063913,
+    "epsilon": 0.12281276002230032,
+    "beta": 0.9205762443907934,
+    "eta": 0.9953142769552293,
+    "rate_log_slope_kpc_inv": 0.07049416828810354,
+    "source_excess_amplitude": 0.16846262939069304,
+    "source_length_kpc": 0.9078506325117714
+  },
+  "reference_coordinate_selection": "one actual prior-run joint draw nearest the coordinatewise median, not a new pointwise posterior median",
+  "ordered_pixel_pairs_in_positive_bins": 115366246,
+  "valid_pixels": 15201,
+  "source_grid_step_kpc": 0.0600000000000005,
+  "age_nodes": 32,
+  "fixed_coordinate_chi2_with_old_covariance": 27.227170662323303,
+  "fixed_coordinate_shoulder_RMSE": 0.06129122140398645,
+  "latent_component_sum_max_error": 0.0,
+  "source_integral_scope": "nonlocal radial-rate numerical extension of the isotropic zeroth-order source covariance; no arm coupling",
+  "limitations": [
+    "Not a newly sampled posterior, not maximum likelihood, and not a claim of improved fit.",
+    "Uses the previous correlated measurement response and covariance as a frozen control; new native-flux injection/recovery is still required.",
+    "Only this joint point is integrated. Full-prior grid/age/boundary precision and emulator validation must precede a new seven-parameter MCMC.",
+    "Source completion and coverage-area corrections remain assumptions; see source-input summary.",
+    "Gaussian beam applied to a linear abundance fluctuation is not exact nonlinear multi-line PSF propagation.",
+    "Only NGC628; other galaxies/geometry controls and manuscript comparison figures remain unchanged."
+  ]
+}

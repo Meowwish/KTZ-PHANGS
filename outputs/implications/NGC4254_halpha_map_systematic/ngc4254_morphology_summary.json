@@ -1,0 +1,53 @@
+{
+  "galaxy": "NGC4254",
+  "catalog_sha256": "46c07f4cfdbb7ab32bc23e6dd1649d8045bfb05532891f45e644169e6b1745ec",
+  "nebula_mask_sha256": "d5468ec9a78673a91984dc8c68f925a5454a30ede430dc5af5c42da39e0b9934",
+  "muse_maps_sha256": "3dabca784c5991c99d6c821645b617a6129160f99a3f897e4d5c7efddeccb1fb",
+  "muse_maps_product_id": "ADP.2021-07-16T10:20:56.482",
+  "r_band_sha256": "36d3f3eb23dc5243a158d9110ff2531914320fca9a0bdcaa0373f076b129e1b0",
+  "r_band_product_id": "ADP.2021-07-16T10:20:56.480",
+  "metallicity_field": "direct PHANGS-MUSE spaxel S-calibration map",
+  "native_copt_psf_fwhm_arcsec": 0.89,
+  "target_psf_fwhm_kpc": 0.12,
+  "face_on_cell_size_kpc": 0.06,
+  "annular_detrending_width_kpc": 0.2,
+  "line_sn_minimum": 2.0,
+  "line_coverage_minimum": 0.8,
+  "metallicity_error_maximum_dex": null,
+  "halpha_ew_minimum_angstrom": 6.0,
+  "halpha_ew_scale": 1.1208967750074004,
+  "halpha_ew_scale_p16_p84": [
+    1.008691984963391,
+    1.2561249025649541
+  ],
+  "n_annulus_grid_cells": 11868,
+  "n_li21_ew_cells": 11158,
+  "n_li21_bpt_cells": 11842,
+  "n_face_on_analysis_cells": 11152,
+  "analysis_rmin_kpc": 0.9526590513180578,
+  "analysis_rmax_kpc": 3.8106362052722313,
+  "r_ref_kpc": 2.2511776690710787,
+  "environment_mask_data_doi": "10.11570/21.0024",
+  "source_geometry_sha256": "90860dcc81f3d747eab10ef3bb31f23c4eb98420bb1ca94b5c3c95a5226905ff",
+  "source_geometry_kind": "annular-normalised 1.0-kpc-smoothed H-alpha map",
+  "halpha_template_fwhm_kpc": 1.0,
+  "environment_mask_role": "external morphology overlay only",
+  "arm_labels": [
+    5,
+    6
+  ],
+  "interarm_labels": [
+    4,
+    7
+  ],
+  "mask_contrast_amplitude": 0.4476243688904768,
+  "mask_contrast_amplitude_error": 0.15666852911166687,
+  "arm_area_fraction_on_grid": 0.48735051980049277,
+  "unit_arm_rate_profile_minimum": 0.18403448161669,
+  "maximum_positive_eta": 1.2010311439896322,
+  "event_rate_log_slope_kpc_inv": -0.3780197383949089,
+  "inv_h_R_halpha_kpc_inv": 0.3780197383949089,
+  "event_rate_log_slope_error_kpc_inv": 0.05550272855888305,
+  "halpha_sfr_msun_per_yr": 1.5288791568812716,
+  "gamma_ref_at_halpha_slope_myr_inv_kpc_inv2": 43.460688357490476
+}

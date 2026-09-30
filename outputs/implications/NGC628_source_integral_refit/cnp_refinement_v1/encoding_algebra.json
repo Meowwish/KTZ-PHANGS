@@ -1,0 +1,32 @@
+{
+  "status": "CNP encoding/zero-slope/domain/hidden-amplitude algebra verified",
+  "reconstruction_cases": [
+    {
+      "features": "original",
+      "rate_slope_factor": false,
+      "maximum_reconstruction_error": 2.220446049250313e-16
+    },
+    {
+      "features": "variance",
+      "rate_slope_factor": false,
+      "maximum_reconstruction_error": 4.440892098500626e-16
+    },
+    {
+      "features": "original",
+      "rate_slope_factor": true,
+      "maximum_reconstruction_error": 1.1102230246251565e-15
+    },
+    {
+      "features": "variance",
+      "rate_slope_factor": true,
+      "maximum_reconstruction_error": 1.1102230246251565e-15
+    }
+  ],
+  "mixture_bound": {
+    "status": "positive-allocation error bound verified",
+    "random_allocations": 10000,
+    "maximum_violation": -0.005548947918662134,
+    "scope": "Numerical bound only; no observed fit or physical validation."
+  },
+  "scope": "Synthetic algebra only; fresh real-source precision checks remain required."
+}

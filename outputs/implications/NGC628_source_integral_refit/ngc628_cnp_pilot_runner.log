@@ -1,0 +1,3 @@
+Executing nonlocal CNP response cell: source-integral-cnp-control-run
+Executing nonlocal CNP response cell: source-integral-cnp-pilot-run
+Nonlocal CNP source-response pilot complete; no galaxy MCMC was started.

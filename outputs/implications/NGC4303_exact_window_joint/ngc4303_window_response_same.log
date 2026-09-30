@@ -1,0 +1,6 @@
+[same] pair geometry 76s; ordered pairs per bin min/max 221960/2890906
+[same] rate_log_slope node 1/5: -0.3500  (77s)
+[same] rate_log_slope node 2/5: -0.1750  (354s)
+[same] rate_log_slope node 3/5: +0.0000  (632s)
+[same] rate_log_slope node 4/5: +0.1750  (910s)
+[same] rate_log_slope node 5/5: +0.3500  (1188s)

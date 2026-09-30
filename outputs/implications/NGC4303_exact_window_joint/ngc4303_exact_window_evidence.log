@@ -1,0 +1,9 @@
+L0: logZ -10.03 +- 0.11, chi2_min 12.20, ell_star 0.677 [52 s]
+L0q: logZ -11.54 +- 0.13, chi2_min 11.07, ell_star 0.633 [71 s]
+L1: logZ -15.13 +- 0.16, chi2_min 11.98, ell_star 0.470 [101 s]
+L1q: logZ -16.23 +- 0.17, chi2_min 10.71, ell_star 0.424 [122 s]
+L1n: logZ -12.12 +- 0.13, chi2_min 10.39, ell_star 0.638 [94 s]
+L1nq: logZ -13.52 +- 0.15, chi2_min 8.87, ell_star 0.582 [117 s]
+L2: logZ -17.63 +- 0.18, chi2_min 10.30, ell_star 0.241 [136 s]
+L2q: logZ -19.01 +- 0.20, chi2_min 8.57, ell_star 0.249 [159 s]
+done in 852 s
